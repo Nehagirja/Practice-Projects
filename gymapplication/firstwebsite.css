@@ -1,0 +1,102 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  margin: 0px;
+  padding: 0px;
+  background: url("img/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.left {
+  top: 18px;
+  position: absolute;
+  left: 60px;
+  display: inline-block;
+  /* border: 2px solid red; */
+}
+
+.mid {
+  width: 45%;
+  text-align: center;
+  margin: 18px auto;
+  /* border: 2px solid red; */
+}
+.right {
+  top: 18px;
+  color: black;
+  position: absolute;
+  right: 60px;
+  display: inline-block;
+  /* border: 2px solid red; */
+}
+
+.navbar li a {
+  color: white;
+  text-decoration: none;
+  padding: 34px 23px;
+}
+.navbar li {
+  display: inline-block;
+  font-size: 25px;
+}
+
+.navbar li a:hover,
+.navbar li a:active {
+  text-decoration: underline;
+  color: grey;
+}
+.left img {
+  width: 80px;
+  height: 50px;
+}
+.left div {
+  text-align: center;
+  line-height: 5px;
+}
+
+button {
+  font-family: "Open Sans", sans-serif;
+  color: black;
+  background-color: white;
+  margin: 0px 9px;
+  padding: 0px 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: black;
+  color: white;
+  border-color: white;
+}
+.container {
+  /* border: 2px solid red; */
+  margin: 64px auto;
+  padding: 24px;
+  text-align: center;
+  width: 90%;
+}
+.container h1 {
+  font-weight: normal;
+}
+.form-group input {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  display: block;
+  width: 344px;
+  padding: 6px;
+  border: 2px solid black;
+  margin: 15px auto;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.form-group button {
+  width: 20%;
+  padding: 4px;
+  border-color: black;
+  margin: 4px auto;
+}
